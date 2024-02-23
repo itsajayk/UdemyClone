@@ -46,11 +46,12 @@ body{
     outline: none;
 }
 
-.navbar__s3{
+.navbar__s3 {
     display: flex;
-    gap: 10px;
-    align-items: center;  
+    justify-content: space-between;
+    align-items: center;
 }
+
 
 .navbar__s4{
     display: none;
@@ -229,5 +230,8 @@ body{
     }
     .navbar__s4{
         display: block;
+    }
+    .sale-image__offer{
+        display: none;
     }
 }
